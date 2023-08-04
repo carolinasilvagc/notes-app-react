@@ -12,9 +12,9 @@
 
 :root {
     --color-bg-dark: #3a3a3a;
-    --color-bg-black: #111111;
+    --color-bg-black: #000000;
     --color-white: #fefefe;
-    --color-primary: #7634d8;
+    --color-primary: #087ea1cc;
     --color-danger: rgb(249, 84, 84);
 }
 
