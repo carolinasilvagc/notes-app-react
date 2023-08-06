@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg-dark: #3a3a3a;
-    --color-bg-black: #1c1820;
+    --color-bg-dark: #555554cc;
+    --color-bg-black: #161516;
     --color-white: #fefefe;
-    --color-primary: #087ea1cc;
+    --color-primary: #f3ef04cc;
     --color-danger: rgb(249, 84, 84);
 }
 
@@ -23,7 +23,7 @@ body {
     display: grid;
     place-items: center;
     color: var(--color-white);
-    background: #ccc;
+    background: #b1b1b1;
     line-height: 1.5;
 }
 
@@ -125,7 +125,7 @@ h2 {
     gap: 1rem;
     cursor: pointer;
     transition: all 300ms ease;
-    color: var(--color-white);
+    color: #000;
 }
 
 .note:hover {
@@ -154,6 +154,10 @@ h2 {
     bottom: 4rem;
     right: 7rem;
     padding: 1rem;
+}
+
+.save {
+    color: #000;
 }
 
 
