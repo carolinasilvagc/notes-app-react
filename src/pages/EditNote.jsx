@@ -33,11 +33,13 @@ const EditNote = ({notes, setNotes}) => {
   }
 
   const handleDelete = () => {
-    const newNotesArray = notes.filter((item) => item.id !== id);
-    setNotes(newNotesArray);
+    if(window.confirm('Tem certeza que deseja excluir esta nota?')) {
+      const newNotesArray = notes.filter((item) => item.id !== id);
+      setNotes(newNotesArray);
 
-    // Redirect to home page
-    navigate('/');
+      // Redirect to home page
+      navigate('/');
+    }
   }
 
   return (
